@@ -1,0 +1,134 @@
+.kamaz{
+    padding: 40px;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        
+      
+        .all{
+            display: flex;
+            gap: 20px;
+            width: 350px;
+            justify-content: center;
+            .truck{
+                font-size: 50px;
+                padding-top: 20px;
+                color: rgb(121, 113, 234);
+            }
+            .par{
+                h2{
+                    font-size: 18px;
+                }
+                p{
+                    color: rgb(140, 146, 160);
+                }
+            }
+        }
+    }
+}
+
+.cat{
+    padding: 60px;
+   
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            
+            .card{
+                background-image: url(https://preview.colorlib.com/theme/shoppers/images/women.jpg);
+                height: 400px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                padding-left: 20px;
+                h2{
+                    font-size: 30px;
+                    margin: 0;
+                    padding-bottom: 10px;
+                }
+        
+            }
+        }
+
+    }
+}
+
+.dynamic{
+    padding: 30px;
+    background-color: rgb(248, 249, 250);
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        h1{
+            text-align: center;
+        }
+        .cards{
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            .card{
+                text-align: center;
+                h2{
+                    color: rgb(121, 113, 234);
+                }
+                span{
+                    color: rgb(121, 113, 234);  
+                }
+                img{
+                    width: 100%;
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                }
+                p{
+                    color: rgb(140, 146, 160);  
+                }
+            }
+        }
+    }
+}
+
+.last{
+    padding: 100px;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        .tw{
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 100%;
+            }
+            p{
+                width: 400px;
+                margin: 20px auto;
+                color: rgb(140, 146, 160);
+            }
+            h2{
+                color: rgb(121, 113, 234);
+            }
+            span{
+                color: rgb(140, 146, 160);
+                span{
+                    color: rgb(121, 113, 234);
+                }
+            }
+            button{
+                background-color: rgb(121, 113, 234);
+                border: none;
+                padding: 15px 25px;
+                color: white;
+            }
+
+        
+        }
+        
+    }
+}

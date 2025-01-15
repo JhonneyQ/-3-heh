@@ -1,0 +1,58 @@
+.nav{
+    padding: 10px;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        nav{
+            ul{
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.shoes{
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg);
+    padding-top: 20px;
+    padding-bottom: 250px;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .all{   
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: center;
+            padding-right: 180px;
+            h1{
+                font-size: 50px;
+                padding-top: 250px;
+                width: 300px;
+                margin: 0;
+            }
+            p{
+                font-size: 20px;
+                width: 300px;
+                margin-top: 20px;
+            }
+            button{
+                padding: 15px 25px;
+                background-color: rgb(121, 113, 234);
+                color: white;
+                border: none;
+                
+            }
+
+        }
+    }
+    
+}
