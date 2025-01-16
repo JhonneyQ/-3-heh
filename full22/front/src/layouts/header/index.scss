@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Indie+Flower&display=swap');
+
+header{
+    
+    margin: 0;
+    padding: 0;
+    background-image: url(https://preview.colorlib.com/theme/tasty/images/bg_1.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .head{
+        margin: 0;
+        padding: 0;
+        
+        .container{
+            height: 90vh;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .all{
+                display: flex;
+                justify-content: space-between;
+                padding: 30px;
+                a{
+                    color: white;
+                    background-color: transparent;
+                    border: 2px solid white;
+                    display: flex;
+                    align-items: center;
+                    padding: 0px 15px;
+                    font-size: 20px;
+                    height: 30px;
+                }
+                nav{
+                    ul{
+                        display: flex;
+                        gap: 40px;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .all2{
+             
+                text-align: center;
+                color: white;
+                h1{
+                    font-size: 68px;
+                    text-align: center;
+                    font-family: "Indie Flower", serif;
+                }
+                button{
+                    background-color: transparent;
+                    border: 2px solid white;
+                    color: white;
+                    padding: 20px 50px;
+                    font-size: 15px;
+                }
+                
+            }
+            .all3{
+                background-color: rgb(255, 180, 0);
+                padding: 40px 0px;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                input{
+                    background-color: transparent;
+                    padding: 15px;
+                    outline: none;
+                    border: 1px solid black;
+                    
+                }
+                button{
+                    background-color: white;
+                    border: none;
+                    padding: 0px 15px;
+                }
+            }
+        }
+    }
+}
