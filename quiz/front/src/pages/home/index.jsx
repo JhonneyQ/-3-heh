@@ -12,7 +12,8 @@ const Home = () => {
   const [category, setCategory] = useState("");
   const [search, setSearch] = useState("");
   const { favorites, toggleFav } = useContext(FavContext);
-  const [final, setFinal] = useState([])
+  const [sorted, setSorted] = useState([])
+
 
   const filtered = category
     ? cards.filter((p) => p.category === category)
@@ -73,8 +74,8 @@ const Home = () => {
         <div className="container">
           <h1>New Arrivals</h1>
           <input type="text" onChange={(e) => setSearch(e.target.value)} />
-          <button onClick={()=>setFinal(dFiltered.sort((a, b) => a.description - b.description))}>sorta</button>
-          <button onClick={()=>setFinal(dFiltered.sort((a, b) => b.description - a.description))}>sortb</button>
+          <button onClick={()=>setSorted( dFiltered.sort((a, b) => a.description - b.description))}>sorta</button>
+          <button onClick={()=>setSorted( dFiltered.sort((a, b) => b.description - a.description))}>sortb</button>
           <div className="but">
             <button onClick={() => allCat()}>ALL</button>
             <button onClick={() => wCat()}>WOMEN'S</button>
@@ -83,7 +84,7 @@ const Home = () => {
           </div>
           <Row className="cards">
             {cards &&
-              final.map((p) => (
+              sorted.map((p) => (
                 <Col span={4} className="card" key={p._id}>
                   <img src="https://preview.colorlib.com/theme/coloshop/images/product_10.png" />
                   <p>{p.description}</p>
