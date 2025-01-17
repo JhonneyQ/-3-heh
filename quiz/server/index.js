@@ -1,0 +1,17 @@
+const express = require('express')
+const app = express()
+const port = 3000
+const mongoose = require('mongoose');
+const cors = require('cors')
+const routerP = require("./router/router")
+
+app.use(cors())
+app.use(express.json())
+app.use(routerP)
+
+
+
+mongoose.connect('mongodb+srv://kananqadirov2005:kanan_2005@cluster0.whn9k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+  .then(() =>app.listen(port, () => {
+    console.log(`Example app listening on port http://localhost:${port}`)
+  }));

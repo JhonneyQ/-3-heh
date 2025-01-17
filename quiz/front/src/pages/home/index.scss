@@ -1,0 +1,186 @@
+.class {
+  padding: 50px;
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    .card {
+      background-image: url(https://preview.colorlib.com/theme/coloshop/images/banner_1.jpg);
+      width: 370px;
+      height: 280px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        background-color: white;
+        padding: 10px 25px;
+      }
+    }
+  }
+}
+
+.dynamic {
+  text-align: center;
+  padding: 50px;
+  h1 {
+    font-size: 40px;
+  }
+  input {
+    margin-top: 20px;
+  }
+  .but {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    button {
+      background-color: white;
+      border: 1px solid rgb(235, 235, 235);
+      //   color: white;
+      padding: 10px 20px;
+    }
+  }
+  .cards {
+    justify-content: center;
+    gap: 30px;
+    .card {
+      border: 1px solid rgb(231, 231, 231);
+      transition: 0.4s;
+      display: flex;
+      flex-direction: column;
+      button{
+        background-color: transparent;
+        border: none;
+      }
+      &:hover {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
+      p {
+        font-size: 14px;
+        padding-top: 15px;
+      }
+      img {
+        width: 100%;
+      }
+      span {
+        color: rgb(254, 76, 80);
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: 15px;
+      }
+      a {
+        padding: 20px 0;
+      }
+    }
+  }
+}
+
+.cloth {
+  text-align: center;
+  padding: 60px;
+  h2 {
+    padding: 30px;
+  }
+  .cards {
+    justify-content: center;
+    .card {
+      border: 1px solid rgb(231, 231, 231);
+      transition: 0.4s;
+      display: flex;
+      flex-direction: column;
+      &:hover {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
+      p {
+        font-size: 14px;
+        padding-top: 15px;
+      }
+      img {
+        width: 100%;
+      }
+      span {
+        color: rgb(254, 76, 80);
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: 15px;
+      }
+      a {
+        padding: 20px 0;
+      }
+    }
+  }
+}
+
+.blog {
+  padding: 60px;
+  text-align: center;
+  .ust{
+    font-size: 40px;
+  }
+  .cards {
+    margin-top: 50px;
+    justify-content: center;
+    gap: 40px;
+    .card {
+      position: relative;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      img{
+        width: 100%;
+      }
+      
+      .inc {
+        height: 150px;
+        width: 250px;
+        position: absolute;
+        top: 33px;
+        left: 24px;
+        transition: 0.5s;
+        
+     
+        
+        p{
+          display: none;
+        }
+        
+        h2 {
+          display: none;
+        }
+        &:hover {
+          display: block;
+          background-color: white;
+          opacity: 0.6;
+          h2 {
+            display: block;
+          }
+          p{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.let{
+  background-color: rgb(242, 242, 242);
+  padding: 35px;
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    input{
+      padding: 10px;
+      border: none;
+      outline: none;
+
+    }
+    button{
+      padding: 10px;
+      border: none;
+      background-color:rgb(254, 76, 80);
+      color: white;
+    }
+    
+  }
+}

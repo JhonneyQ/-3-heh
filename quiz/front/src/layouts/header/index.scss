@@ -1,0 +1,72 @@
+#head{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    left: 0;
+    top: 0;
+    
+    .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        .a{
+            font-size: 24px;
+            font-weight: 700;
+            span{
+                color: rgb(254, 76, 80);
+            }
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            li{
+                a{
+                    color: black;
+                    font-weight: 500;
+                
+                }
+            }
+        }
+        .icons{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+
+.sec2{
+    background-image: url(https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg);
+    height: 70vh;
+    margin-top: 70px;
+    
+    
+    
+    .container{
+        height: 70vh;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        p{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 72px;
+            width: 650px;
+        }
+        button{
+            font-size: 12px;
+            width: 8rem;
+            height: 2rem;
+            color: white;
+            border: none;
+            background-color: rgb(254, 76, 80);
+        }
+    }
+}

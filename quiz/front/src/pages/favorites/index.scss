@@ -1,0 +1,55 @@
+.fav {
+    text-align: center;
+    padding: 50px;
+    h1 {
+      font-size: 40px;
+    }
+    input {
+      margin-top: 20px;
+    }
+    .but {
+      display: flex;
+      justify-content: center;
+      padding: 30px 0px;
+      button {
+        background-color: white;
+        border: 1px solid rgb(235, 235, 235);
+        //   color: white;
+        padding: 10px 20px;
+      }
+    }
+    .cards {
+      justify-content: center;
+      gap: 30px;
+      .card {
+        border: 1px solid rgb(231, 231, 231);
+        transition: 0.4s;
+        display: flex;
+        flex-direction: column;
+        button{
+          background-color: transparent;
+          border: none;
+        }
+        &:hover {
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+        p {
+          font-size: 14px;
+          padding-top: 15px;
+        }
+        img {
+          width: 100%;
+        }
+        span {
+          color: rgb(254, 76, 80);
+          font-size: 14px;
+          font-weight: 600;
+          padding-top: 15px;
+        }
+        a {
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+  
